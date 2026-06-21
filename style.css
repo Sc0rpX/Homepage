@@ -1,3 +1,63 @@
-h1 {
-    color: blueviolet;
+:root {
+    --primary-font: "Libre Caslon Text", serif;
+    --regular-font: "Hanken Grotesk", sans-serif;
+    --regular-font-color: #505F76;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--regular-font);
+}
+
+/* --- NavBar --- */
+
+a {
+    text-decoration: none;
+    color: var(--regular-font-color);
+    transition: color 400ms ease;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    background-color: #fcf8fa;
+    border-bottom: 1px solid #C6C6CD;
+}
+
+.nav-logo {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: -0.9px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+}
+
+.nav-button {
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 36px;
 }
