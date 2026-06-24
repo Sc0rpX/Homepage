@@ -157,7 +157,7 @@ section {
     padding-left: 72px;
 }
 
-.subtitle {
+.subtitle, .copyright {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1.8px;
@@ -274,4 +274,25 @@ section {
 
 .contact-grp .subtitle {
     margin-bottom: 10px;
+}
+
+
+/* --- Footer --- */
+footer {
+    border-top: 1px solid var(--regular-font-color); 
+    padding: 100px;  
+}
+
+.container.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: black;
+}
+
+.footer-links-wrapper {
+    display: flex;
+    gap: 48px;
 }
