@@ -68,6 +68,10 @@ nav {
     padding: 25px 120px;
     background-color: #fcf8fa;
     border-bottom: 1px solid #C6C6CD;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .nav-logo {
@@ -197,6 +201,10 @@ section {
 
 
 /* --- Works section --- */
+section#works {
+    background-color: #F6F3F5;
+}
+
 .container.works {
     display: flex;
     flex-direction: column;
