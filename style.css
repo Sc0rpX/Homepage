@@ -4,6 +4,10 @@
     --regular-font-color: #505F76;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
