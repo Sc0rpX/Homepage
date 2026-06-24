@@ -111,7 +111,7 @@ section {
     padding: 180px 120px;
 }
 
-.container.hero {
+.container.hero, .container.contact {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 96px;
@@ -187,7 +187,7 @@ section {
 
 .iconify {
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     transition: color 200ms ease-in-out;
 }
 
@@ -253,4 +253,25 @@ section {
 
 .card-link:hover {
     border-color: black;
+}
+
+/* --- Contact --- */
+.container.contact > div {
+    grid-column: span 6;
+}
+
+.contact-header-wrapper {
+    margin-bottom: 72px;
+}
+
+.contact-header-wrapper .subtitle {
+    margin-bottom: 22px;
+}
+
+.contact-grp {
+    margin-bottom: 60px;
+}
+
+.contact-grp .subtitle {
+    margin-bottom: 10px;
 }
