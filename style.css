@@ -276,6 +276,12 @@ section#works {
     margin-bottom: 22px;
 }
 
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contact-grp {
     margin-bottom: 60px;
 }
