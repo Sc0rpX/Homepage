@@ -4,4 +4,3 @@ A short practice project focusing on responsive web design using raw HTML and CS
 
 ## 🔗 Live Preview
 [View Live Site Here](https://sc0rpx.github.io/Homepage/)  
-*(Note: Replace the link above with your actual deployed URL, e.g., GitHub Pages, Netlify, or Vercel)*
